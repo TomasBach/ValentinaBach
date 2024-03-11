@@ -1,0 +1,13 @@
+.carruselPrincipal img{
+
+    object-fit: fill;
+    width: 100%;
+   
+}
+
+@media screen and (max-width: 780px) {
+    .cambio-direccion{
+        flex-direction: column-reverse;
+    }}
+
+    
