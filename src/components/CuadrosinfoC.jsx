@@ -31,7 +31,7 @@ const CuadrosinfoC = () => {
                                 <Col className="">
                                     <h2>Fichas Tecnicas</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquid officia quasi sed non nisi optio fuga voluptatibus, error consequatur unde earum libero ex voluptates. Ratione quo optio beatae dolores!</p>
-                                    <NavLink className='me-4 fuente-titulos nav-link btn btn-outline-light fs-5' style={{ color: "#F7D9D9" }} to="/FichasTecnicas">Conocer mas</NavLink>
+                                    <NavLink className='me-4 fuente-titulos  btn btn-outline-light fs-5'  to="/FichasTecnicas">Conocer mas</NavLink>
                                     </Col>
                             </Row>
                         </Container>
@@ -45,7 +45,7 @@ const CuadrosinfoC = () => {
                                 <Col>
                                     <h2>Diseño de Estampas</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquid officia quasi sed non nisi optio fuga voluptatibus, error consequatur unde earum libero ex voluptates. Ratione quo optio beatae dolores!</p>
-                                    <NavLink className='me-4 fuente-titulos nav-link btn btn-outline-light fs-5' style={{ color: "#F7D9D9" }} to="/DisenoEstampas">Conocer mas</NavLink></Col>
+                                    <NavLink className='me-4 fuente-titulos  btn btn-outline-light fs-5' to="/DisenoEstampas">Conocer mas</NavLink></Col>
                             </Row>
                         </Container>
                     </Col>
@@ -85,7 +85,7 @@ const CuadrosinfoC = () => {
                                 <Col>
                                     <h2>Figurines Moda</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquid officia quasi sed non nisi optio fuga voluptatibus, error consequatur unde earum libero ex voluptates. Ratione quo optio beatae dolores!</p>
-                                    <NavLink className='me-4 fuente-titulos nav-link btn btn-outline-light fs-5' style={{ color: "#F7D9D9" }} to="/FigurinesModa">Conocer mas</NavLink></Col>
+                                    <NavLink className='me-4 fuente-titulos  btn btn-outline-light fs-5' to="/FigurinesModa">Conocer mas</NavLink></Col>
                             </Row>
                         </Container>
                     </Col>
