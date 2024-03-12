@@ -23,9 +23,9 @@ const Hablemos = () => {
 
     const refForm = useRef()
     const onSubmit = () => {
-        const serviceId = "service_erbrlnj"
-        const templateId = "template_gjt8zq2"
-        const apikey = "z89ogi_VH85JYCCJ_"
+        const serviceId = "service_5m1kytk"
+        const templateId = "template_be0gf57"
+        const apikey = "yKQ7Ea6MbUHc8lP2M"
 
         emailjs.sendForm(serviceId, templateId, refForm.current, apikey)
             .then(result => console.log(result.text))

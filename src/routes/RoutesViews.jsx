@@ -14,11 +14,11 @@ const RoutesViews = () => {
             <NavbarC />
             <Routes>
                 <Route path="/" element={<HomePage/>} />
-                <Route path="/Hablemos" element={<Hablemos/>} />
-                <Route path="/SobreMi" element={<SobreMi/>} />
-                <Route path="/FichasTecnicas" element={<FichasTecnicas/>} />
-                <Route path="/DisenoEstampas" element={<DisenoEstampas/>} />
-                <Route path="/FigurinesModa" element={<FigurinesModa/>} />
+                <Route path="/Hablemos" element={<Hablemos />} />
+                <Route path="/SobreMi" element={<SobreMi />} />
+                <Route path="/FichasTecnicas" element={<FichasTecnicas />} />
+                <Route path="/DisenoEstampas" element={<DisenoEstampas />} />
+                <Route path="/FigurinesModa" element={<FigurinesModa />} />
 
             </Routes>
                 <FooterC />

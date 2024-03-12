@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import ImgC from "./ImgC";
 import Button from 'react-bootstrap/Button';
 import "../css/cuadrosinfo.css"
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const CuadrosinfoC = () => {
 
@@ -31,7 +31,7 @@ const CuadrosinfoC = () => {
                                 <Col className="">
                                     <h2>Fichas Tecnicas</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquid officia quasi sed non nisi optio fuga voluptatibus, error consequatur unde earum libero ex voluptates. Ratione quo optio beatae dolores!</p>
-                                    <NavLink className='me-4 fuente-titulos  btn btn-outline-light fs-5'  to="/FichasTecnicas">Conocer mas</NavLink>
+                                    <Link className='me-4 fuente-titulos btn btn-outline-light fs-5' to="/FichasTecnicas">Conocer mas</Link>
                                     </Col>
                             </Row>
                         </Container>
