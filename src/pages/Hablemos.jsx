@@ -7,12 +7,6 @@ import * as Yup from 'yup'
 import Swal from 'sweetalert2';
 import ImgC from "../components/ImgC";
 
-
-
-
-
-
-
 const initialValues = {
     nombre: "",
     correo: "",

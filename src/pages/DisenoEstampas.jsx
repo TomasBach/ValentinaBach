@@ -1,5 +1,4 @@
 import React from 'react'
-import { Carousel, Container, Row, Col } from 'react-bootstrap'
 import "../css/modelotrabajo.css"
 import "../css/cuadrosinfo.css"
 import ModeloTrabajo from '../components/ModeloTrabajo'

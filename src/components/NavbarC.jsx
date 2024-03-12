@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { NavLink } from 'react-router-dom';
 
 const NavbarC = () => {
 
@@ -19,9 +19,9 @@ const NavbarC = () => {
             /></Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav" className='d-flex justify-content-center text-center '>
             <Nav className='fs-1 '>
-              <Nav.Link className='me-4 fuente-titulos' style={{ color: "#F7D9D9" }} href="/">Inicio</Nav.Link>
-              <Nav.Link className='me-4 fuente-titulos' style={{ color: "#F7D9D9" }} href="/SobreMi">Quien Soy?</Nav.Link>
-              <Nav.Link className='me-4 fuente-titulos' style={{ color: "#F7D9D9" }} href="/Hablemos">Hablemos</Nav.Link>
+              <NavLink className='me-4 fuente-titulos nav-link' style={{ color: "#F7D9D9" }} to="/">Inicio</NavLink>
+              <NavLink className='me-4 fuente-titulos nav-link' style={{ color: "#F7D9D9" }} to="/SobreMi">Quien Soy?</NavLink>
+              <NavLink className='me-4 fuente-titulos nav-link' style={{ color: "#F7D9D9" }} to="/Hablemos">Hablemos</NavLink>
               
             </Nav>
           </Navbar.Collapse>
