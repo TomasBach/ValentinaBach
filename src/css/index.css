@@ -14,3 +14,9 @@
   .color-fondo {
     background-color: #F7D9D9;
 }
+
+
+@media screen and (max-width: 780px) {
+  .prueba-clase img{
+    width: 90%;
+  }}

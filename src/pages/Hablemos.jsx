@@ -51,8 +51,8 @@ const Hablemos = (ev) => {
         <>
             <Container fluid className="pt-2 color-fondo">
                 <Row>
-                    <Col sm={12} lg={6} className="text-center">
-                        <ImgC urlImage={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Drawing-fashion-design-fashion-draw-sketches.jpg/640px-Drawing-fashion-design-fashion-draw-sketches.jpg"} width={400} />
+                    <Col sm={12} lg={6} className="text-center prueba-clase">
+                        <ImgC urlImage={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Drawing-fashion-design-fashion-draw-sketches.jpg/640px-Drawing-fashion-design-fashion-draw-sketches.jpg"} width={400}/>
                     </Col>
                     <Col sm={12} lg={6}>
                         <h2 className="fuente-titulos text-center">Si estas aca por que quieres empezar tu proyecto con un diseño unico</h2>
