@@ -19,7 +19,7 @@ const validationSchema = Yup.object({
     mensaje: Yup.string().max(280, "Cantidad minima 280").min(20, "Cantidad minima 20").required("Campo requerido")
 })
 
-const Hablemos = () => {
+const Hablemos = (ev) => {
 
     const refForm = useRef()
     const onSubmit = () => {
@@ -36,6 +36,7 @@ const Hablemos = () => {
                 title: "Se mando su consulta con exito!",
                 icon: "success",
             });
+            
         }
     }
     const { handleChange, errors, handleSubmit } = useFormik({
@@ -51,7 +52,7 @@ const Hablemos = () => {
             <Container fluid className="pt-2 color-fondo">
                 <Row>
                     <Col sm={12} lg={6} className="text-center">
-                        <ImgC urlImage={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Drawing-fashion-design-fashion-draw-sketches.jpg/640px-Drawing-fashion-design-fashion-draw-sketches.jpg"} width={450} />
+                        <ImgC urlImage={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Drawing-fashion-design-fashion-draw-sketches.jpg/640px-Drawing-fashion-design-fashion-draw-sketches.jpg"} width={400} />
                     </Col>
                     <Col sm={12} lg={6}>
                         <h2 className="fuente-titulos text-center">Si estas aca por que quieres empezar tu proyecto con un diseño unico</h2>
@@ -73,7 +74,7 @@ const Hablemos = () => {
                                     </Col>
                                     <div className="d-flex justify-content-end">
                                         <Col sm={12} md={3} >
-                                            <Button variant="primary" type="submit" className="w-100">
+                                            <Button variant="light" type="submit" className="w-100">
                                                 Enviar
                                             </Button>
                                         </Col>
