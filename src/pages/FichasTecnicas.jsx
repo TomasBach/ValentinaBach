@@ -3,7 +3,7 @@ import ModeloTrabajo from '../components/ModeloTrabajo'
 import "../css/modelotrabajo.css"
 import "../css/cuadrosinfo.css"
 
-const FichasTecnicas = ({ Titulo, QueIncluyen, ComoSeEncarga, OtrasPreguntas, urlImage1, urlImage2, urlImage3, urlImage4, urlImage5, urlImage6 }) => {
+const FichasTecnicas = () => {
     return (
         <>
             <ModeloTrabajo Titulo={"Fichas Tecnicas"} QueIncluyen={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquid officia quasi sed non nisi optio fuga voluptatibus, error consequatur unde earum libero ex voluptates. Ratione quo optio beatae dolores!"}

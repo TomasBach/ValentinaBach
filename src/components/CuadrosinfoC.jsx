@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import ImgC from "./ImgC";
 import Button from 'react-bootstrap/Button';
 import "../css/cuadrosinfo.css"
-import { NavLink } from 'react-router-dom';
+
 
 const CuadrosinfoC = () => {
 
@@ -31,8 +31,7 @@ const CuadrosinfoC = () => {
                                 <Col className="">
                                     <h2>Fichas Tecnicas</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquid officia quasi sed non nisi optio fuga voluptatibus, error consequatur unde earum libero ex voluptates. Ratione quo optio beatae dolores!</p>
-                                    <NavLink className='me-4 fuente-titulos btn btn-outline-light text-light fs-5' style={{ color: "#F7D9D9" }} to="/FichasTecnicas">Conocer mas</NavLink>
-                                   </Col>
+                                    <Button variant="outline-light" href="/FichasTecnicas" className="fs-5">Conocer mas</Button></Col>
                             </Row>
                         </Container>
                     </Col>
@@ -45,8 +44,7 @@ const CuadrosinfoC = () => {
                                 <Col>
                                     <h2>Diseño de Estampas</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquid officia quasi sed non nisi optio fuga voluptatibus, error consequatur unde earum libero ex voluptates. Ratione quo optio beatae dolores!</p>
-                                    <NavLink className='me-4 fuente-titulos btn btn-outline-light text-light fs-5' style={{ color: "#F7D9D9" }} to="/DisenoEstampas">Conocer mas</NavLink>
-                                  </Col>
+                                    <Button variant="outline-light" href="/DisenoEstampas" className="fs-5">Conocer mas</Button></Col>
                             </Row>
                         </Container>
                     </Col>
@@ -86,7 +84,7 @@ const CuadrosinfoC = () => {
                                 <Col>
                                     <h2>Figurines Moda</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquid officia quasi sed non nisi optio fuga voluptatibus, error consequatur unde earum libero ex voluptates. Ratione quo optio beatae dolores!</p>
-                                    <NavLink className='me-4 fuente-titulos btn btn-outline-light text-light fs-5' style={{ color: "#F7D9D9" }} to="/FigurinesModa">Conocer mas</NavLink></Col>
+                                    <Button variant="outline-light" href="/FigurinesModa" className="fs-5">Conocer mas</Button></Col>
                             </Row>
                         </Container>
                     </Col>

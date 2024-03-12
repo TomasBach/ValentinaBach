@@ -3,7 +3,7 @@ import "../css/modelotrabajo.css"
 import "../css/cuadrosinfo.css"
 import ModeloTrabajo from '../components/ModeloTrabajo'
 
-const DisenoEstampas = ({ Titulo, QueIncluyen, ComoSeEncarga, OtrasPreguntas, urlImage1, urlImage2, urlImage3, urlImage4, urlImage5, urlImage6 }) => {
+const DisenoEstampas = () => {
   return (
     <ModeloTrabajo Titulo={"Diseño de Estampas"} QueIncluyen={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquid officia quasi sed non nisi optio fuga voluptatibus, error consequatur unde earum libero ex voluptates. Ratione quo optio beatae dolores!"}
     ComoSeEncarga={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aliquid officia quasi sed non nisi optio fuga voluptatibus, error consequatur unde earum libero ex voluptates. Ratione quo optio beatae dolores!"}

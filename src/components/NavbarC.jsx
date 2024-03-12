@@ -16,7 +16,8 @@ const NavbarC = () => {
               height="150"
               className="d-inline-block align-top me-5"
               alt="React Bootstrap logo"
-            /></Navbar.Brand>
+            />
+            </Navbar.Brand>
           <Navbar.Collapse id="basic-navbar-nav" className='d-flex justify-content-center text-center '>
             <Nav className='fs-1 '>
               <NavLink className='me-4 fuente-titulos nav-link' style={{ color: "#F7D9D9" }} to="/">Inicio</NavLink>
