@@ -3,13 +3,15 @@ import { Carousel, Container, Row, Col } from 'react-bootstrap'
 import ImgC from './ImgC'
 import "../css/modelotrabajo.css"
 import "../css/cuadrosinfo.css"
-const ModeloTrabajo = ({ Titulo, QueIncluyen, ComoSeEncarga, OtrasPreguntas, urlImage1, urlImage2, urlImage3, urlImage4, urlImage5, urlImage6, urlImage7, urlImage8, urlImage9, urlImage10 }) => {
+import Hablemos from '../pages/Hablemos'
+const ModeloTrabajo = ({ Titulo, Descripcion1, Descripcion2, Descripcion3, Descripcion4, Descripcion5, urlImage1, urlImage2, urlImage3, urlImage4, urlImage5, urlImage6, urlImage7, urlImage8, urlImage9, urlImage10 }) => {
     return (
         <>
             <Container fluid className='direccion-trabajo p-3 color-fondo' >
-                <h2 className='text-center py-5'>{Titulo}</h2>
+                <h2 className='text-center py-5 fuente-titulos fs-1' style={{ color: "#E1A3EA" }}>{Titulo}</h2>
                 <Container >
                     <Row>
+
                         <Col sm={12} lg={6}>
                             <Carousel fade controls={false} indicators={false} className="carruselPrincipal " >
                                 <Carousel.Item interval={1000} >
@@ -51,15 +53,14 @@ const ModeloTrabajo = ({ Titulo, QueIncluyen, ComoSeEncarga, OtrasPreguntas, url
                     </Row>
                 </Container>
                 <Container className='text-end mt-5 fs-5 '>
-                    <h5 className='fuente-titulos'>Que incluyen?</h5>
-                    <p>{QueIncluyen}</p>
-                    <h5 className='fuente-titulos'>Como se encargan?</h5>
-                    <p>{ComoSeEncarga}</p>
-                    <h5 className='fuente-titulos'>Otras Preguntas</h5>
-                    <p>{OtrasPreguntas}</p>
+                    <h5 className='fuente-titulos'>Que son?</h5>
+                    <p>{Descripcion1}</p>
+                    <p>{Descripcion2}</p>
+                    <p>{Descripcion3}</p>
+                    <p>{Descripcion4}</p>
+                    <p>{Descripcion5}</p>
                 </Container>
-
-
+                <Hablemos />
             </Container>
         </>
     )

@@ -1,9 +1,11 @@
 import CuadrosinfoC from "../components/CuadrosinfoC"
+import SobreMi from "./SobreMi"
 
 const HomePage = () => {
   return (
    <>
-   <CuadrosinfoC/>
+   <SobreMi/>
+      <CuadrosinfoC/>
    </> 
   )
 }

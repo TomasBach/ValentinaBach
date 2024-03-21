@@ -1,22 +1,52 @@
 * {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Mont", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
   }
 
  .fuente-titulos {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 600;
+    font-family: "mogent", sans-serif;
+    font-weight: 700;
     font-style: normal;
+    font-size: xx-large;
   }
 
-  .color-fondo {
-    background-color: #F7D9D9;
+.fondo-sobremi img{
+  width: 100vw;
 }
 
+.altura-cuadro{
+  height: 80vh;
+}
+
+.fondo-imagen-index{
+  background-image: url("https://res.cloudinary.com/dcsj0kdrc/image/upload/v1711035043/Dise%C3%B1o_sin_t%C3%ADtulo_2_yzzagp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faqs-texto h3{
+  font-family: "mogent", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+}
+.faqs-texto p{
+  font-size: large;
+}
 
 @media screen and (max-width: 780px) {
   .prueba-clase img{
     width: 90%;
-  }}
+  }
+.fondo-sobremi{
+  background: none;
+}
+.ImagenSobreMi{
+  height: 50%;
+}
+}
+
+
+

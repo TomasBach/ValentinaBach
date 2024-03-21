@@ -5,9 +5,14 @@
    
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1000px) {
     .cambio-direccion{
         flex-direction: column-reverse;
-    }}
+    }
+    .carruselPrincipal img{
+height: 100%;
+       
+    }
+}
 
     

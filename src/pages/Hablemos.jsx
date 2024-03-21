@@ -5,16 +5,18 @@ import Button from 'react-bootstrap/Button';
 import { useFormik } from 'formik';
 import * as Yup from 'yup'
 import Swal from 'sweetalert2';
-import ImgC from "../components/ImgC";
 
 const initialValues = {
     nombre: "",
     correo: "",
-    mensaje: ""
-}
+    mensaje: "",
+    pais: "",
+    social: ""}
 
 const validationSchema = Yup.object({
     nombre: Yup.string().max(30, "Superaste la cantidad de caracteres").required("Campo requerido"),
+    pais: Yup.string().max(30, "Superaste la cantidad de caracteres").required("Campo requerido"),
+    social: Yup.string().max(100, "Superaste la cantidad de caracteres").required("Campo requerido"),
     correo: Yup.string().email("Correo no valido").max(256, "Superaste la cantidad de caracteres").required("Campo requerido"),
     mensaje: Yup.string().max(280, "Cantidad minima 280").min(20, "Cantidad minima 20").required("Campo requerido")
 })
@@ -36,7 +38,7 @@ const Hablemos = (ev) => {
                 title: "Se mando su consulta con exito!",
                 icon: "success",
             });
-            
+
         }
     }
     const { handleChange, errors, handleSubmit } = useFormik({
@@ -49,33 +51,43 @@ const Hablemos = (ev) => {
 
     return (
         <>
-            <Container fluid className="pt-2 color-fondo">
+            <Container fluid className="pt-2">
                 <Row>
-                    <Col sm={12} lg={6} className="text-center prueba-clase">
-                        <ImgC urlImage={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Drawing-fashion-design-fashion-draw-sketches.jpg/640px-Drawing-fashion-design-fashion-draw-sketches.jpg"} width={400}/>
+                    <Col sm={12} lg={6} className="text-center prueba-clase my-auto">
+                        <h4 className="text-center">Nuestros servicios son personalizados, únicos y hechos con mucho amor y dedicación. <br/><br/>
+                            Te dejo un espacio para que nos contactes, nos cuentes tus intereses, nos des ideas, sugerencias, críticas y plantees tus dudas.
+                            <br/><br/> No dudes en contactarnos!
+                        </h4>
                     </Col>
                     <Col sm={12} lg={6}>
-                        <h2 className="fuente-titulos text-center">Si estas aca por que quieres empezar tu proyecto con un diseño unico</h2>
-                        <h4 className="text-center">Contame todo lo que tenga que saber para que lo hagamos juntos</h4>
+
                         <Container className="p-md-4 mt-3 mt-md-0">
                             <Row>
-                                <form ref={refForm} onSubmit={handleSubmit}>
-                                    <Col sm={12} className="mb-2"><label className="h4">Nombre</label>
+                                <form ref={refForm} onSubmit={handleSubmit} style={{ backgroundColor: "#E1A3EA" }}>
+                                <Col sm={12} className="mb-2"><label className="h4">Nombre</label>
                                         <input className="d-block w-100 rounded border border-dark py-1 px-2 focus-ring focus-ring-secondary" type="text" name="nombre" onChange={handleChange} />
+                                        <small className='text-danger'>{errors?.nombre}</small>
+                                    </Col>
+                                    <Col sm={12} className="mb-2"><label className="h4">Pais desde el que me escribes</label>
+                                        <input className="d-block w-100 rounded border border-dark py-1 px-2 focus-ring focus-ring-secondary" type="text" name="pais" onChange={handleChange} />
                                         <small className='text-danger'>{errors?.nombre}</small>
                                     </Col>
                                     <Col sm={12} className="mb-2"><label className="h4">Correo Electronico</label>
                                         <input type="email" name="correo" className="d-block w-100 rounded border border-dark py-1 px-2 focus-ring focus-ring-secondary" onChange={handleChange} />
                                         <small className='text-danger'>{errors?.correo}</small>
                                     </Col>
+                                    <Col sm={12} className="mb-2"><label className="h4">Instagram o página web</label>
+                                        <input className="d-block w-100 rounded border border-dark py-1 px-2 focus-ring focus-ring-secondary" type="text" name="social" onChange={handleChange} />
+                                        <small className='text-danger'>{errors?.nombre}</small>
+                                    </Col>
                                     <Col sm={12} className="mb-2"><label className="h4">Mensaje</label>
-                                        <textarea name="mensaje" placeholder="Cuentame sobre ti, tu proyecto, ideas, que estas buscando y tu presupuesto para poder darte una respuesta lo mas rapido posible!" className="d-block w-100 rounded border border-dark py-1 px-2 focus-ring focus-ring-secondary" rows={"7"} onChange={handleChange} />
+                                        <textarea name="mensaje" placeholder="Cuéntame sobre tu proyecto y lo que crees que necesita" className="d-block w-100 rounded border border-dark py-1 px-2 focus-ring focus-ring-secondary" rows={"5"} onChange={handleChange} />
                                         <small className='text-danger'>{errors?.mensaje}</small>
                                     </Col>
-                                    <div className="d-flex justify-content-end">
+                                    <div className="d-flex justify-content-center">
                                         <Col sm={12} md={3} >
-                                            <Button variant="light" type="submit" className="w-100">
-                                                Enviar
+                                            <Button style={{ backgroundColor: "#CFF995", border: "none", fontFamily: "mont" }} type="submit" className="w-100 text-dark fs-5 mb-1">
+                                                ENVIAR
                                             </Button>
                                         </Col>
                                     </div>

@@ -1,32 +1,40 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
+import ImgC from '../components/ImgC'
 
 const SobreMi = () => {
 
-  return (
-    <>
-    
-       <Container fluid className='text-center color-fondo fs-5 p-5'>
-       <h2 className='fuente-titulos'>Quien es VBB?</h2>
-        <p>Soy Valentina Bach Bejar, una apasionada del diseño gráfico con raíces en el mundo de la moda. Con un trasfondo como diseñadora de indumentaria,
-          he llevado mi amor por la estética y la creatividad a nuevas alturas a través del diseño gráfico.</p>
+    return (
+        <>
 
-        <p>Mi trayectoria comenzó en el vibrante mundo de la moda, donde aprendí a fusionar colores, texturas y formas para crear piezas únicas
-          y expresivas. Este trasfondo influye profundamente en mi enfoque del diseño gráfico, donde busco siempre capturar la elegancia, la originalidad
-          y la innovación en cada proyecto que emprendo.</p>
+            <Container fluid className='text-center fs-5 fondo-sobremi'>
+                <Row className="my-5 ">
+                    <Col sm={12} md={7} className=" text-center d-flex align-items-center fs-4 ">
+                        <Container>
+                            <Row>
+                                <Col className='p-2'>
+                                    <h2 className="fuente-titulos fs-1" style={{ color: "#E1A3EA" }}>¡Bienvenid@s!</h2>
+                                    <div className="mx-auto w-75">
+                                        <p> Mi nombre es Valentina, soy diseñadora textil y de indumentaria especializada en diseño gráfico de moda, y una apasionada del arte y la creatividad.
+                                            En este espacio, encontrarás los servicios que ofrecemos como equipo de freelancers, buscando ayudar y dar soporte a marcas, estudiantes, creativos y diseñadores para potenciar sus proyectos, elevar la calidad de sus productos y ampliar su espectro creativo.
+                                            He creado un recurso invaluable para diseñadores, estudiantes y entusiastas de la moda que, a veces, por falta de tiempo, conocimientos o simplemente por practicidad, necesitan una mano a la hora de ilustrar figurines o prendas; diseñar estampas y logos; o realizar fichas técnicas de excelente calidad.
+                                            Si te sientes identificado con algo de todo esto, ¡estás en el lugar correcto!
+                                            ¡Bienvenid@!
+                                        </p>
+                                    </div>
+                                   
+                                </Col>
+                            </Row>
+                        </Container>
+                    </Col>
+                    <Col sm={12} md={3} className="carruselPrincipal ImagenSobreMi">
+                        <ImgC urlImage={"https://res.cloudinary.com/dcsj0kdrc/image/upload/v1710976543/historias_de_insta_j0wdck.png"} height={600} />
+                    </Col>
+                </Row>
+            </Container>
 
-        <p>Como freelancer, mi objetivo es colaborar con empresas y emprendimientos para ayudarles a transmitir su mensaje de manera visualmente impactante y memorable.
-          Creo en la importancia de entender las necesidades y la identidad de cada cliente para poder crear soluciones gráficas que no solo sean estéticamente atractivas,
-          sino también efectivas y que generen conexión con su audiencia.</p>
-
-        <p>Con un enfoque centrado en la excelencia y la atención al detalle, me comprometo a ofrecer resultados que superen las expectativas y que reflejen mi pasión por
-          el diseño en cada pixel. Estoy emocionada por la oportunidad de colaborar contigo y llevar tus ideas a la vida a través del poder del diseño gráfico.</p>
-
-        <p>¡Espero poder trabajar juntos y crear algo increíble!</p>
-       </Container>
-      
-    </>
-  )
+        </>
+    )
 }
 
 export default SobreMi
