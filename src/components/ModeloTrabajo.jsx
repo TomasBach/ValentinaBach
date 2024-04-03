@@ -8,7 +8,9 @@ const ModeloTrabajo = ({ Titulo, Descripcion1, Descripcion2, Descripcion3, Descr
     return (
         <>
             <Container fluid className='direccion-trabajo p-3 color-fondo' >
-                <h2 className='text-center py-5 fuente-titulos fs-1' style={{ color: "#D10F17" }}>{Titulo}</h2>
+               
+                <h2 className='w-25 text-center py-5 fuente-titulos fs-1 mx-auto' style={{ color: "#D10F17", background: "#F7D9D9"}}>{Titulo}</h2>
+               
                 <Container >
                     <Row>
 
