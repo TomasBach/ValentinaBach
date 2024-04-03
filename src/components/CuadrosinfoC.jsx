@@ -22,7 +22,7 @@ const CuadrosinfoC = () => {
                                             Simplifica tu proceso creativo y eleva la calidad de tu producción con nuestras completas fichas técnicas personalizadas…
                                         </p>
                                     </div>
-                                    <Link className='me-4 btn fs-5' style={{ backgroundColor: "#CFF995" }} to="/FichasTecnicas">VER MAS</Link>
+                                    <Link className='me-4 btn fs-5' style={{ backgroundColor: "#F7D9D9" }} to="/FichasTecnicas">VER MAS</Link>
                                 </Col>
                             </Row>
                         </Container>
@@ -39,7 +39,7 @@ const CuadrosinfoC = () => {
                                             Charlemos un poco y déjanos inspirarnos en tus ideas para co-crear prints únicos y originales…
                                         </p>
                                     </div>
-                                    <NavLink className='me-4 btn fs-5 ' style={{ backgroundColor: "#CFF995" }} to="/DisenoEstampas">VER MAS</NavLink></Col>
+                                    <NavLink className='me-4 btn fs-5 ' style={{ backgroundColor: "#F7D9D9" }} to="/DisenoEstampas">VER MAS</NavLink></Col>
                             </Row>
                         </Container>
                     </Col>
@@ -62,7 +62,7 @@ const CuadrosinfoC = () => {
                                             Ya sea que prefieras la versatilidad de lo digital o el encanto de lo hecho a mano, nuestros figurines capturan la esencia de tus ideas en cada trazo…
                                         </p>
                                     </div>
-                                    <NavLink className='me-4 btn fs-5' style={{ backgroundColor: "#CFF995" }} to="/FigurinesModa">VER MAS</NavLink></Col>
+                                    <NavLink className='me-4 btn fs-5' style={{ backgroundColor: "#F7D9D9" }} to="/FigurinesModa">VER MAS</NavLink></Col>
                             </Row>
                         </Container>
                     </Col>

@@ -86,7 +86,7 @@ const Hablemos = (ev) => {
                                     </Col>
                                     <div className="d-flex justify-content-center">
                                         <Col sm={12} md={3} >
-                                            <Button style={{ backgroundColor: "#CFF995", border: "none", fontFamily: "mont" }} type="submit" className="w-100 text-dark fs-5 mb-1">
+                                            <Button style={{ backgroundColor: "#F7D9D9", border: "none", fontFamily: "mont" }} type="submit" className="w-100 text-dark fs-5 mb-1">
                                                 ENVIAR
                                             </Button>
                                         </Col>

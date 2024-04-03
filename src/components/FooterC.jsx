@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const FooterC = () => {
   return (
     <>
-      <Container fluid style={{ backgroundColor: "#CFF995" }} className="fs-4 text-center p-5">
+      <Container fluid style={{ backgroundColor: "#F7D9D9" }} className="fs-4 text-center p-5">
         <Row>
           <Col style={{ color: "#E1A3EA" }} className="fuente-titulos">Valentina Bach Bejar</Col>
         </Row>
