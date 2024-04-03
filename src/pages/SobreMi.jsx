@@ -13,7 +13,7 @@ const SobreMi = () => {
                         <Container>
                             <Row>
                                 <Col className='p-2'>
-                                    <h2 className="fuente-titulos fs-1" style={{ color: "#E1A3EA" }}>¡Bienvenid@s!</h2>
+                                    <h2 className="fuente-titulos fs-1" style={{ color: "#D10F17" }}>¡Bienvenid@s!</h2>
                                     <div className="mx-auto w-75">
                                         <p> Mi nombre es Valentina, soy diseñadora textil y de indumentaria especializada en diseño gráfico de moda, y una apasionada del arte y la creatividad.
                                             En este espacio, encontrarás los servicios que ofrecemos como equipo de freelancers, buscando ayudar y dar soporte a marcas, estudiantes, creativos y diseñadores para potenciar sus proyectos, elevar la calidad de sus productos y ampliar su espectro creativo.
