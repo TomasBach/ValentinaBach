@@ -12,7 +12,7 @@ const NavbarC = () => {
           <Navbar.Brand href="/">
             <img
               src="https://res.cloudinary.com/dcsj0kdrc/image/upload/v1712152123/Dise%C3%B1o_sin_t%C3%ADtulo_4_pdifex.png"
-              width="350"
+              width="380"
               height="200"
               className="d-inline-block align-top me-5"
               alt="Logo de VBB"

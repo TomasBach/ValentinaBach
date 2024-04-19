@@ -61,7 +61,7 @@ const Hablemos = (ev) => {
                     </Col>
                     <Col sm={12} lg={6}>
 
-                        <Container className="p-md-4 mt-3 mt-md-0">
+                        <Container className="p-md-4 mt-3 mt-md-0 text-center">
                             <Row>
                                 <form ref={refForm} onSubmit={handleSubmit} style={{ backgroundColor: "#D10F17" }}>
                                 <Col sm={12} className="mb-2"><label className="h4">Nombre</label>

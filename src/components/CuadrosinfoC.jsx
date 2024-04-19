@@ -8,7 +8,7 @@ const CuadrosinfoC = () => {
 
     return (
         <>
-            <Container fluid className="p-5 ">
+            <Container fluid className="p-5">
                 <Row className="my-5 ">
                     <Col sm={12} lg={5} className="carruselPrincipal">
                         <ImgC urlImage={"https://res.cloudinary.com/dcsj0kdrc/image/upload/v1710976375/u1_pybhcq.png"} height={600} />
